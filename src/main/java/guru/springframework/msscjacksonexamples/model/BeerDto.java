@@ -21,6 +21,7 @@ import java.util.UUID;
 @Builder
 public class BeerDto {
 
+//    @JsonProperty("beerId")
     @Null
     private UUID id;
 
